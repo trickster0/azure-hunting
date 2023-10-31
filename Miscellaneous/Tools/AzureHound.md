@@ -124,7 +124,14 @@ $Tokens.access_token
 
 ## Custom queries
 
-Replace the content of: ```C:\Users\%USERNAME%\AppData\Roaming\bloodhound\customqueries.json```
+Replace the content of the following file:
+```code
+C:\Users\%USERNAME%\AppData\Roaming\bloodhound\customqueries.json
+```
+
+### customqueries.json
+
+Credits: https://github.com/LuemmelSec/Custom-BloodHound-Queries
 
 ```shell
 {
