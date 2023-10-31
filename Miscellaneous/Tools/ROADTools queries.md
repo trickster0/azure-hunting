@@ -60,7 +60,7 @@ AND replyUrls != '["https://localhost"]'
 AND replyUrls != '["https://VisualStudio/SPN"]'
 ```
 
-#### List all app registrations with an associated Managed Identity (not sure what to use for)
+#### List all app registrations with an associated Managed Identity
 
 ```shell
 SELECT appId, displayName, encryptedMsiApplicationSecret FROM Applications
